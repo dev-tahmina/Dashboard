@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  @apply font-inter;
+}
+.text-blk {
+  @apply font-inter font-normal text-sm text-black dark:text-white;
+}
+.text-ash {
+  @apply font-inter font-normal text-sm text-black/40 dark:text-white/40;
+}
+.ffffff {
+  background-color: #ffffff66;
+  background-color: black/40;
+}
